@@ -1,8 +1,17 @@
-Jogos criados acompanhando o curso de python da plataforma alura
+# Jogos
 
-arquivo jogos.py serve como iniciador para os outros dois jogos, de adivinhação e forca
+### Jogos criados acompanhando o curso de python da plataforma alura
 
-jogo de adivinhação é para descobrir um número que o sistema gera em um determinado número de tentativas, que variam de acordo com o nível de dificuldade escolhido.
+<p> O arquivo <b>jogos.py</b> serve como iniciador para os outros dois jogos, de adivinhação e forca.
+<br/><br/>
 
-jogo de forca é para descobrir a palavra secreta que o sistema escolhe do arquivo de palavras.txt
-você tem um limite de tentativas também.
+### ADIVINHAÇÃO
+Jogo de adivinhação
+<p> O objetivo é descobrir um número que o sistema gera em um determinado número de tentativas.
+<p> Existe a possibilidade de variar o número de tentativas de acordo com o nível de dificuldade escolhido.
+<br/><br/>
+
+### FORCA
+Jogo de Forca
+<p> O objetivo é para descobrir a palavra secreta que o sistema escolhe (proveniente do arquivo de <i>palavras.txt</i>)
+<p> Possui um limite de tentativas também.

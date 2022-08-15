@@ -14,3 +14,4 @@ Listas de exercícios da wiki python e exercícios passados nos cursos Alura.
 * Python: avançando na linguagem
 * Python: entendendo a Orientação a Objetos
 * Python: avançando na Orientação a Objetos
+* Python 3: trabalhando com Input Output

@@ -1,8 +1,6 @@
 #5. Altere o programa anterior permitindo ao usuário informar as populações e as taxas de 
 # crescimento iniciais. Valide a entrada e permita repetir a operação.
 
-rodar_novamente = ''
-
 def rodar ():
     validar_paises = False
     while not validar_paises:
@@ -33,12 +31,12 @@ def rodar ():
 
     print ('Levaram {} anos para as populações se equalizarem.'.format (ano))
 
-    rodar_novamente = input ('Deseja tentar novamente (S/N)? ').upper ()
-    return rodar_novamente
+ativo = True
 
-if rodar_novamente == 'S':
+while ativo:
     rodar ()
+    repetir = input ('Deseja tentar novamente (S/N)? ').upper ()
+    if repetir == 'N':
+        break
 
-if __name__ == '__main__':
-    rodar ()
-    
+print ('Até a próxima!')

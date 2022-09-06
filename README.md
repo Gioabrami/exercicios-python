@@ -1,6 +1,6 @@
 # EXERCÍCIOS
 Listas de exercícios da wiki python e exercícios passados nos cursos Alura.
-<i> (Exercícios finalizados e em andamento)</i>
+<p><i> (Exercícios finalizados e em andamento)</i>
 
 ### [Wiki Python](https://wiki.python.org.br/)
 
@@ -18,3 +18,4 @@ Listas de exercícios da wiki python e exercícios passados nos cursos Alura.
 * Python 3: trabalhando com Input Output
 * Python Collections parte 1: listas e tuplas
 * Python Collections parte 2: conjuntos e dicionários
+* Python 3: entendendo o Tratamento de Erros

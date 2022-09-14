@@ -201,6 +201,7 @@
     <p> Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, você deve criar um programa que gere um relatório, chamado "relatório.txt", no seguinte formato:
     <p> ACME Inc.  Uso do espaço em disco pelos usuários
     --------------------------------------
+    
     Nº | Usuário | Espaço utilizado | % do uso
     :--- | :--: | ---: | ---:
     1 | alexandre | 434,99 MB | 16,85%

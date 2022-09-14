@@ -139,4 +139,78 @@
     <br/> &nbsp; &nbsp; Total gasto com abonos: R$ 1400.00
     <br/> &nbsp; &nbsp; Valor mínimo pago a 3 colaboradores
     <br/> &nbsp; &nbsp; Maior valor de abono pago: R$ 900.00
-     
+21. Faça um programa que carregue uma lista com os modelos de cinco carros (exemplo de modelos: FUSCA, GOL, VECTRA etc). Carregue uma outra lista com o consumo desses carros, isto é, quantos quilômetros cada um desses carros faz com um litro de combustível. Calcule e mostre:
+    <p>O modelo do carro mais econômico;
+    <br/>Quantos litros de combustível cada um dos carros cadastrados consome para percorrer uma distância de 1000 quilômetros e quanto isto custará, considerando um que a gasolina custe R$ 2,25 o litro. Abaixo segue uma tela de exemplo. O disposição das informações deve ser o mais próxima possível ao exemplo. Os dados são fictícios e podem mudar a cada execução do programa.
+
+    <p> Comparativo de Consumo de Combustível
+    <br/> &nbsp; &nbsp; Veículo 1
+    <br/> &nbsp; &nbsp; Nome: fusca
+    <br/> &nbsp; &nbsp; Km por litro: 7
+    <br/> &nbsp; &nbsp; Veículo 2
+    <br/> &nbsp; &nbsp; Nome: gol
+    <br/> &nbsp; &nbsp; Km por litro: 10
+    <br/> &nbsp; &nbsp; Veículo 3
+    <br/> &nbsp; &nbsp; Nome: uno
+    <br/> &nbsp; &nbsp; Km por litro: 12.5
+    <br/> &nbsp; &nbsp; Veículo 4
+    <br/> &nbsp; &nbsp; Nome: Vectra
+    <br/> &nbsp; &nbsp; Km por litro: 9
+    <br/> &nbsp; &nbsp; Veículo 5
+    <br/> &nbsp; &nbsp; Nome: Peugeout
+    <br/> &nbsp; &nbsp; Km por litro: 14.5
+
+    <p> Relatório Final
+    <br/><br/>
+
+    Nº | Veículo | km/L | L/1000 km | Gasto
+    -- | :---- | ---: | :----: | ----:
+    1 | fusca | 7.0 | 142.9 litros | R$ 321.43
+    2 | gol | 10.0 | 100.0 litros | R$ 225.00
+    3 | uno | 12.5 | 80.0 litros | R$ 180.00
+    4 | vectra | 9.0 | 111.1 litros | R$ 250.00
+    5 | peugeout | 14.5 | 69.0 litros | R$ 155.17
+
+    <p> O menor consumo é do peugeout.
+22. Sua organização acaba de contratar um estagiário para trabalhar no Suporte de Informática, com a intenção de fazer um levantamento nas sucatas encontradas nesta área. A primeira tarefa dele é testar todos os cerca de 200 mouses que se encontram lá, testando e anotando o estado de cada um deles, para verificar o que se pode aproveitar deles.
+    <p>Foi requisitado que você desenvolva um programa para registrar este levantamento. O programa deverá receber um número indeterminado de entradas, cada uma contendo: um número de identificação do mouse o tipo de defeito:
+    <br/> &nbsp; &nbsp; necessita da esfera;
+    <br/> &nbsp; &nbsp; necessita de limpeza
+    <br/> &nbsp; &nbsp; necessita troca do cabo ou conector
+    <br/> &nbsp; &nbsp; quebrado ou inutilizado
+    <p> Uma identificação igual a zero encerra o programa. Ao final o programa deverá emitir o seguinte relatório:
+
+    <br/>
+    <p> Quantidade de mouses: 100
+
+    Situação | Quantidade | Percentual
+    :---- | :---: | ----:
+    necessita da esfera | 40 | 40%
+    necessita de limpeza | 30 | 30%
+    necessita troca do cabo ou conector | 15 | 15%
+    quebrado ou inutilizado | 15 | 15%
+
+23. A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos usuários, e identificar os usuários com maior espaço ocupado. Através de um programa, baixado da Internet, ele conseguiu gerar o seguinte arquivo, chamado "usuarios.txt":
+    <p> alexandre       456123789
+    <br/> anderson        1245698456
+    <br/> antonio         123456456
+    <br/> carlos          91257581
+    <br/> cesar           987458
+    <br/> rosemary        789456125
+
+    <p> Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, você deve criar um programa que gere um relatório, chamado "relatório.txt", no seguinte formato:
+    <p> ACME Inc.  Uso do espaço em disco pelos usuários
+    --------------------------------------
+    Nº | Usuário | Espaço utilizado | % do uso
+    :--- | :--: | ---: | ---:
+    1 | alexandre | 434,99 MB | 16,85%
+    2 | anderson | 1187,99 MB | 46,02%
+    3 | antonio | 117,73 MB | 4,56%
+    4 | carlos | 87,03 MB | 3,37%
+    5 | cesar | 0,94 MB | 0,04%
+    6 | rosemary | 752,88 MB | 29,16%
+
+    <p> Espaço total ocupado: 2581,57 MB
+    <br/> Espaço médio ocupado: 430,26 MB
+    <p> O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão da espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
+24. Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene os resultados em um vetor . Depois, mostre quantas vezes cada valor foi conseguido. Dica: use um vetor de contadores(1-6) e uma função para gerar numeros aleatórios, simulando os lançamentos dos dados.

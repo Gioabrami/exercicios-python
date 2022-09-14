@@ -7,6 +7,7 @@ Listas de exercícios da wiki python e exercícios passados nos cursos Alura.
 * Lista Estrutura Sequencial
 * Lista Estrutura de Decisão
 * Lista Estrutura de Repetição
+* Lista de Exercícios com Listas
 
 
 ### [Alura](https://www.alura.com.br/)

@@ -20,3 +20,4 @@ Listas de exercícios da wiki python e exercícios passados nos cursos Alura.
 * Python Collections parte 1: listas e tuplas
 * Python Collections parte 2: conjuntos e dicionários
 * Python 3: entendendo o Tratamento de Erros
+* Python e TDD: explorando testes unitários
